@@ -40,7 +40,7 @@ Chinese characters can be divided into approximately 12 structure types, which w
 example:  
 >{ "81C0": 0, "8FD1": 8, "65A5": 3, "65B0": 4, "8FC5": 8, "4FA0": 4, "62F3": 0, "4EC6": 4, "4FED": 4, ...}
 
-train_unis.json、val_unis.json、cr_mapping.json and stru.json are all in the folder named "meta".
+train_unis.json、val_unis.json、cr_mapping.json and stru.json are all in ./meta.
 ### 4.Build Lmdb Environment
 Run Scripts
 ```
@@ -61,7 +61,7 @@ python taming/main.py --base vqgan/custom_vqgan.yaml -t True
 Keys  
 *base: path to config file for training VQGAN  
 *t: switching to the training pattern mode  
-After obtaining the pre-trained model, we put it into the folder named "vqgan".  
+After obtaining the pre-trained model, we put it into ./vqgan.  
 ## Train VQ-Font
 Run Scripts
 ```
