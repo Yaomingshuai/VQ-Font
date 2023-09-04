@@ -4,6 +4,6 @@ Few-shot font generation is challenging, as it needs to capture the fine-grained
 ## Dependencies
 >python >= 3.7
  torch >= 1.10.0
- torchvision >= 0.11.0
- sconf >= 0.2.3
- lmdb >= 1.2.1
+ torchvision >= 0.11.0  
+ sconf >= 0.2.3  
+ lmdb >= 1.2.1  
