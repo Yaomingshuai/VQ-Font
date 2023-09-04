@@ -23,11 +23,15 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 Test Font Directory  
 Content Font Directory
 
-At the same time, split the Chinese characters into train characters and valid characters. Then convert them into Unicode form through hex(ord(ch))[2:].upper() and save them to JSON files.  
+At the same time, split the Chinese characters into train characters and valid characters. Then convert them into Unicode form through hex(ord(ch))[2:].upper( ) and save them to JSON files.  
 >train_unis: ["5211","597D","80DC"]  
  val_unis: ["8FD1","4FA0"]
 ### 2.Content-Reference mapping
-Referring to the method mentioned in [Fs-Font](https://github.com/tlc121/FsFont), we first select around 100 reference characters from all Chinese characters as our reference set, and then select three characters for each character from the reference set.
+Referring to the method mentioned in [Fs-Font](https://github.com/tlc121/FsFont), we first select around 100 reference characters from all Chinese characters as our reference set, and then select three characters for each character from the reference set. The format of CR-Mapping is as shown below:  
+>{content1: [ref1, ref2, ref3, ...], content2: [ref1, ref2, ref3, ...], ...}
+
+example:
+>{"5211": ["5F62","520A","5DE7"],"597D": ["5B59","5987","59E5"],"80DC": ["80A0","7272","81C0"],"8FD1": ["65A5","65B0","8FC5"],"4FA0": ["62F3","4EC6","4FED"]}
 
 ### 3.Struture document
 ### 4.Build lmdb environment
