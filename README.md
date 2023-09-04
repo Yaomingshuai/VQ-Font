@@ -22,7 +22,8 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 |&emsp;--|Font_n  
 Test Font Directory  
 Content Font Directory
-At the same time, split the Chinese characters into train characters and valid characters. Then convert them into Unicode form through hex(ord(ch))[2:].upper() and save them to JSON files.
+
+At the same time, split the Chinese characters into train characters and valid characters. Then convert them into Unicode form through hex(ord(ch))[2:].upper() and save them to JSON files.  
 >train_unis: ["5211","597D","80DC"]  
  val_unis: ["8FD1","4FA0"]
 ### 2.Content-Reference mapping
