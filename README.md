@@ -59,8 +59,8 @@ Run Scripts
 python taming/main.py --base vqgan/custom_vqgan.yaml -t True
 ```
 Keys  
-*base: path to config file for training VQGAN  
-*t: switching to the training pattern mode  
+* base: path to config file for training VQGAN  
+* t: switching to the training pattern mode  
 After obtaining the pre-trained model, we put it into ./vqgan.  
 ## Train VQ-Font
 Run Scripts
