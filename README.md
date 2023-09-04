@@ -34,6 +34,10 @@ example:
 >{"5211": ["5F62","520A","5DE7"],"597D": ["5B59","5987","59E5"],"80DC": ["80A0","7272","81C0"],"8FD1": ["65A5","65B0","8FC5"],"4FA0": ["62F3","4EC6","4FED"]}
 
 ### 3.Struture document
+We need to add structural tags for each Chinese character：
+>{Uni_1: stru_tag_1,Uni_2: stru_tag_2,...}  
+example:  
+>{ "81C0": 0,"8FD1": 8,"65A5": 3,"65B0": 4,"8FC5": 8,"4FA0": 4,"62F3": 0,"4EC6": 4,"4FED": 4,...}
 ### 4.Build lmdb environment
 ```
 python3 ./build_dataset/build_meta4train.py 
