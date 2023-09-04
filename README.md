@@ -10,7 +10,7 @@ Paper Link: [arxiv](https://arxiv.org/pdf/2308.14018.pdf)
  lmdb >= 1.2.1
 ## Data Preparation
 ### 1.Images and Characters 
-Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the downloaded files. Select one font as the content font, and then split the remaining fonts into training set and test set, arranging the fonts according to the following structure:
+Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the '.ttf' files. Select one font as the content font, and then split the remaining fonts into training set and test set, arranging the fonts according to the following structure:
 >Train Font Directory  
 |&emsp;--|Font_1  
 |&emsp;--|Font_2  
