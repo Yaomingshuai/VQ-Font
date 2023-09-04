@@ -14,11 +14,11 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 >--|Font_1  
 >--|Font_2  
 >>   --|char1.png  
->>   --|char2.png
->> --|...
->>   --|char_n.png
->--|...
->  --|Font_n 
+>>   --|char2.png  
+>> --|...  
+>>   --|char_n.png  
+>--|...  
+>  --|Font_n  
 ### 2.Content-Reference mapping
 ### 3.Struture document
 ### 4.Build lmdb environment
