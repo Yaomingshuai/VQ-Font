@@ -14,8 +14,8 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 >Train Font Directory  
 |&emsp;--|Font_1  
 |&emsp;--|Font_2  
-|&emsp;&emsp;&emsp;--|char1.png  
-|&emsp;&emsp;&emsp;--|char2.png  
+|&emsp;&emsp;&emsp;--|char_1.png  
+|&emsp;&emsp;&emsp;--|char_2.png  
 |&emsp;&emsp;&emsp;--|...  
 |&emsp;&emsp;&emsp;--|char_n.png  
 |&emsp;--|...  
