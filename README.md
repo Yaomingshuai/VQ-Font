@@ -9,8 +9,8 @@ Paper Link:[arxiv](https://arxiv.org/pdf/2308.14018.pdf)
  sconf >= 0.2.3  
  lmdb >= 1.2.1
 ## Data Preparation
-### 1.Images
-Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the downloaded files. Select one font as the content font, and then split the remaining fonts into a training set and a test set, arranging the fonts according to the following structure:
+### 1.Images and Characters 
+Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the downloaded files. Select one font as the content font, and then split the remaining fonts into training set and test set, arranging the fonts according to the following structure:
 >Train Font Directory  
 --|Font_1  
 --|Font_2  
@@ -21,7 +21,18 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 --|...  
 --|Font_n  
 Test Font Directory  
-Content Font Directory  
+Content Font Directory
+```
+
+python3 ./build_dataset/build_meta4train.py 
+--saving_dir ./results/your_task_name/ 
+--content_font path\to\content 
+--train_font_dir path\to\training_font 
+--val_font_dir path\to\validation_font 
+--seen_unis_file path\to\train_unis.json 
+--unseen_unis_file path\to\val_unis.json
+
+```
 ### 2.Content-Reference mapping
 ### 3.Struture document
 ### 4.Build lmdb environment
