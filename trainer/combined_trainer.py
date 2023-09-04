@@ -33,12 +33,10 @@ class CombinedTrainer(BaseTrainer):
         self.step = st_step
         self.clear_losses()
         self.logger.info("Start training ...")
-        with open('/data/yms/formerfont_vqgan/meta/stru.json','r') as f:
+        with open('meta/stru.json','r') as f:
             stru_map = json.load(f,strict=False)
-        with open('/data/yms/formerfont_vqgan/meta/cr_mapping.json','r') as f:
+        with open('meta/cr_mapping.json','r') as f:
             cr_map = json.load(f,strict=False)
-        with open('/data/yms/formerfont_vqgan/meta/de.json','r') as f:
-            de = json.load(f,strict=False)
 
         while True:
             for (in_style_ids, in_imgs,in_imgs_ske,
