@@ -22,6 +22,11 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 --|Font_n  
 Test Font Directory  
 Content Font Directory
+
+### 2.Content-Reference mapping
+### 3.Struture document
+### 4.Build lmdb environment
+
 ```
 
 python3 ./build_dataset/build_meta4train.py 
@@ -33,9 +38,6 @@ python3 ./build_dataset/build_meta4train.py
 --unseen_unis_file path\to\val_unis.json
 
 ```
-### 2.Content-Reference mapping
-### 3.Struture document
-### 4.Build lmdb environment
 ## Pre-train VQGAN
 ## Train VQ-FonT
 ## Infer VQ-Font
