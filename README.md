@@ -13,9 +13,9 @@ Paper Link:[arxiv](https://arxiv.org/pdf/2308.14018.pdf)
 Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the downloaded files. Arrange the fonts according to the following structural format.
 >--|Font1  
 >--|Font2  
->   --|char1.png  
->   --|char2.png  
->   --|...  
+>>   --|char1.png  
+>>   --|char2.png  
+>>   --|...  
 >--|...  
 ### 2.Content-Reference mapping
 ### 3.Struture document
