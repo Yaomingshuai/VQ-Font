@@ -53,13 +53,15 @@ python3 ./build_dataset/build_meta4train.py
 --unseen_unis_file path\to\val_unis.json
 ```
 ## Pre-train VQGAN
-Run Scripts
+First, store the paths of the training set images and test set images in vqgan_data/train.txt and vqgan_data/valid.txt respectively.
+Run Scripts:  
 ```
 python taming/main.py --base vqgan/custom_vqgan.yaml -t True
 ```
 Keys
 *base: path to config file for training VQGAN
 *t: switching to the training pattern mode
+After obtaining the pre-trained model, we put it into the folder named "vqgan".  
 ## Train VQ-Font
 Run Scripts
 ```
