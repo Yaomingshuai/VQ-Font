@@ -35,7 +35,7 @@ class Generator(nn.Module):
         configs = [OmegaConf.load(cfg) for cfg in ['vqgan/custom_vqgan.yaml']]
         config = OmegaConf.merge(*configs, {})
         model = instantiate_from_config(config.model)
-        model.init_from_ckpt('/data/yms/formerfont_vqgan/vqgan/1024_16*16_vaecoder.ckpt')
+        model.init_from_ckpt('vqgan/1024_16*16_vaecoder.ckpt')
         self.vqgan = model  
         for name,para in self.vqgan.named_parameters():
             print(name)
