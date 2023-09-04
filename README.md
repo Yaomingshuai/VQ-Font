@@ -12,23 +12,21 @@ Paper Link:[arxiv](https://arxiv.org/pdf/2308.14018.pdf)
 ### 1.Images and Characters 
 Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the downloaded files. Select one font as the content font, and then split the remaining fonts into training set and test set, arranging the fonts according to the following structure:
 >Train Font Directory  
---|Font_1  
---|Font_2  
-&emsp;&emsp;--|char1.png  
-&emsp;&emsp;--|char2.png  
-&emsp;&emsp;--|...  
-&emsp;&emsp;--|char_n.png  
---|...  
---|Font_n  
+|&emsp;--|Font_1  
+|&emsp;--|Font_2  
+|&emsp;&emsp;&emsp;--|char1.png  
+|&emsp;&emsp;&emsp;--|char2.png  
+|&emsp;&emsp;&emsp;--|...  
+|&emsp;&emsp;&emsp;--|char_n.png  
+|&emsp;--|...  
+|&emsp;--|Font_n  
 Test Font Directory  
 Content Font Directory
 
 ### 2.Content-Reference mapping
 ### 3.Struture document
 ### 4.Build lmdb environment
-
 ```
-
 python3 ./build_dataset/build_meta4train.py 
 --saving_dir ./results/your_task_name/ 
 --content_font path\to\content 
@@ -36,7 +34,6 @@ python3 ./build_dataset/build_meta4train.py
 --val_font_dir path\to\validation_font 
 --seen_unis_file path\to\train_unis.json 
 --unseen_unis_file path\to\val_unis.json
-
 ```
 ## Pre-train VQGAN
 ## Train VQ-FonT
