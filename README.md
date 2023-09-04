@@ -53,7 +53,7 @@ python3 ./build_dataset/build_meta4train.py
 --unseen_unis_file path\to\val_unis.json
 ```
 ## Pre-train VQGAN
-First, store the paths of the training set images and test set images in vqgan_data/train.txt and vqgan_data/valid.txt respectively.  
+First, store the paths of the training images and test images in vqgan_data/train.txt and vqgan_data/valid.txt respectively.  
 Run Scripts   
 ```
 python taming/main.py --base vqgan/custom_vqgan.yaml -t True
