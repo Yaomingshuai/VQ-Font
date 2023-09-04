@@ -54,7 +54,7 @@ python3 ./build_dataset/build_meta4train.py
 ```
 ## Pre-train VQGAN
 First, store the paths of the training set images and test set images in vqgan_data/train.txt and vqgan_data/valid.txt respectively.  
-Run Scripts:  
+Run Scripts   
 ```
 python taming/main.py --base vqgan/custom_vqgan.yaml -t True
 ```
