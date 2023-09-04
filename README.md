@@ -11,7 +11,7 @@ Paper Link:[arxiv](https://arxiv.org/pdf/2308.14018.pdf)
 ## Data Preparation
 ### 1.Images
 Download '.ttf' font files from [字库](https://www.foundertype.com/), and then generate font images using the downloaded files. Select one font as the content font, and then split the remaining fonts into a training set and a test set, arranging the fonts according to the following structure:
->Train Font
+>Train Font  
 --|Font_1  
 --|Font_2  
 &emsp;&emsp;--|char1.png  
@@ -19,9 +19,9 @@ Download '.ttf' font files from [字库](https://www.foundertype.com/), and then
 &emsp;&emsp;--|...  
 &emsp;&emsp;--|char_n.png  
 --|...  
---|Font_n
-Test Font
-Content Font
+--|Font_n  
+Test Font  
+Content Font  
 ### 2.Content-Reference mapping
 ### 3.Struture document
 ### 4.Build lmdb environment
