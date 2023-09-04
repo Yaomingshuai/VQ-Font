@@ -27,7 +27,7 @@ At the same time, split the Chinese characters into train characters and valid c
 >train_unis: ["5211","597D","80DC"]  
  val_unis: ["8FD1","4FA0"]
 ### 2.Content-Reference mapping
-Referring to the method mentioned in [Fs-Font](https://github.com/tlc121/FsFont), we first select around 100 reference characters from all Chinese characters as our reference set, and then select three characters for each character from the reference set. The format of CR-Mapping is as shown below:  
+Referring to the method mentioned in [Fs-Font](https://github.com/tlc121/FsFont), we first select around 100 reference characters from all Chinese characters as our reference set, and then select three characters for each character from the reference set. The format of C-R mapping is as shown below:  
 >{content1: [ref1, ref2, ref3, ...], content2: [ref1, ref2, ref3, ...], ...}
 
 example:
