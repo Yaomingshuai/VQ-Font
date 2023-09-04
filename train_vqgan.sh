@@ -1,0 +1,1 @@
+python taming/main.py --base vqgan/custom_vqgan.yaml -t True
