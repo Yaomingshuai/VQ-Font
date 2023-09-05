@@ -80,5 +80,5 @@ python3 inference.py ./cfgs/custom.yaml
 --saving_root path\to\saving_folder
 ```
 ## Acknowledgements
-Our code is modified based on the [Fs-Font](https://github.com/tlc121/FsFont) and [Lf-Font](https://github.com/clovaai/lffont).
+Our code is modified based on the [FS-Font](https://github.com/tlc121/FsFont) and [LF-Font](https://github.com/clovaai/lffont).
 
