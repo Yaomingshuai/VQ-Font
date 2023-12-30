@@ -81,4 +81,6 @@ python3 inference.py ./cfgs/custom.yaml
 ```
 ## Acknowledgements
 Our code is modified based on the [FS-Font](https://github.com/tlc121/FsFont) and [LF-Font](https://github.com/clovaai/lffont).
+## Bibtex
+
 
