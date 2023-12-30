@@ -82,9 +82,9 @@ python3 inference.py ./cfgs/custom.yaml
 ## Acknowledgements
 Our code is modified based on the [FS-Font](https://github.com/tlc121/FsFont) and [LF-Font](https://github.com/clovaai/lffont).
 ## Bibtex
-@article{yao2023vq,
-  title={VQ-Font: Few-Shot Font Generation with Structure-Aware Enhancement and Quantization},
-  author={Yao, Mingshuai and Zhang, Yabo and Lin, Xianhui and Li, Xiaoming and Zuo, Wangmeng},
-  journal={arXiv preprint arXiv:2308.14018},
-  year={2023}
+@InProceedings{yao2023vq,
+author = {Yao, Mingshuai and Zhang, Yabo and Lin, Xianhui and Li, Xiaoming and Zuo, Wangmeng},
+title = {VQ-Font: Few-Shot Font Generation with Structure-Aware Enhancement and Quantization},
+booktitle = {AAAI},
+year = {2024}
 }
